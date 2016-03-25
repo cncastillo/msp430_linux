@@ -18,7 +18,7 @@ git clone https://github.com/dlbeer/mspdebug.git
 cd mspdebug/
 make
 sudo make install
-sudo cp libmsp340.so /usr/lib
+sudo cp libmsp430.so /usr/lib
 ----------------------------------
 
 ##################################
@@ -28,7 +28,7 @@ sudo cp libmsp340.so /usr/lib
 mspdebug tilib -d /dev/ttyACM0 --allow-fw-update
 ./execute.sh
 ```
-# msp340_OS_X
+# msp430_OS_X
 Realice las siguientes instrucciones en el terminal:
 ```
 
