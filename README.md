@@ -1,3 +1,4 @@
+Por Carlos Castillo y Cesar Olivera.
 # msp430_linux
 Realice las siguientes instrucciones en el terminal (y descargue libmsp430.so):
 ```
