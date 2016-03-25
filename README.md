@@ -1,5 +1,5 @@
 # msp430_linux
-Realice las siguientes instrucciones en el terminal:
+Realice las siguientes instrucciones en el terminal (y descargue libmsp430.so):
 ```
 sudo apt-get update
 sudo apt-get install build-essential
@@ -15,5 +15,4 @@ sudo make install
 sudo cp libmsp340.so /usr/lib/
 mspdebug tilib -d /dev/ttyACM0 --allow-fw-update
 sh execute.sh
-
 ```
