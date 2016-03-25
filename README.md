@@ -11,7 +11,7 @@ sudo apt-get install build-essential libusb-dev msp430-libc gcc-msp430 libreadli
 ----------------------------------
 
 ##########################
-## Instalando LibMSP340 ##
+## Instalando LibMSP430 ##
 ##########################
 ----------------------------------
 git clone https://github.com/dlbeer/mspdebug.git
