@@ -55,6 +55,7 @@ brew install msp430-libc
 brew install mspdebug
 git clone https://github.com/sampsyo/homebrew-mspgcc.git
 cd homebrew-mspgcc
+./addlinks.sh
 ------------------------------
 
 
