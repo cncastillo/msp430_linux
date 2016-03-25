@@ -34,7 +34,7 @@ mspdebug tilib -d /dev/ttyACM0 --allow-fw-update
 ./execute.sh
 ```
 # msp340_OS_X
-Realice las siguientes instrucciones en el terminal (y descargue libmsp430.dylib):
+Realice las siguientes instrucciones en el terminal:
 ```
 
 ################################
