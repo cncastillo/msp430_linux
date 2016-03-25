@@ -7,12 +7,7 @@ Realice las siguientes instrucciones en el terminal (y descargue libmsp430.so):
 #################################
 ---------------------------------
 sudo apt-get update
-sudo apt-get install build-essential
-sudo apt-get install libusb-dev
-sudo apt-get install msp430-libc
-sudo apt-get install gcc-msp430
-sudo apt-get install libreadline-dev 
-sudo apt-get install git
+sudo apt-get install build-essential libusb-dev msp430-libc gcc-msp430 libreadline-dev git
 ----------------------------------
 
 ##########################
