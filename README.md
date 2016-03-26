@@ -49,6 +49,7 @@ brew update
 brew tap sampsyo/mspgcc
 brew install msp430-libc
 brew install mspdebug
+brew install git
 git clone https://github.com/sampsyo/homebrew-mspgcc.git
 cd homebrew-mspgcc
 ./addlinks.sh
@@ -64,13 +65,12 @@ cd homebrew-mspgcc
 
 brew install boost
 brew install hidapi
-brew install git
 sudo cp -R /usr/local/Cellar/hidapi/0.8.0-rc1/include/hidapi/hidapi.h ~/Downloads/MSPDebugStack_OS_Package/ThirdParty/include
 sudo cp -R /usr/local/Cellar/hidapi/0.8.0-rc1/lib/libhidapi.a ~/Downloads/MSPDebugStack_OS_Package/ThirdParty/lib64
 cd ~/Downloads/MSPDebugStack_OS_Package
 make STATIC=1
 sudo make install
-mv /usr/local/lib/libmsp430.dylib /usr/local/lib/libmsp430.so
+sudo mv /usr/local/lib/libmsp430.dylib /usr/local/lib/libmsp430.so
 
 
 #############
